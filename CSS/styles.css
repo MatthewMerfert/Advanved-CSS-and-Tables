@@ -1,0 +1,133 @@
+body{
+    background-color: blueviolet;
+}
+
+img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#container {
+    background-color: blueviolet;
+}
+
+header {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    color: greenyellow;
+}
+
+nav {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 2px 0;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    background-color: blueviolet;
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    line-height: 40px;
+    color: greenyellow;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid gold;
+}
+
+nav li a:hover {
+    background-color: blueviolet;
+    color: greenyellow;
+    border: 6px double gold;
+}
+
+main {
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+}
+
+main img {
+    width: 50%;
+}
+
+main h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: blueviolet;
+    color: greenyellow;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.tstyle {
+    color: greenyellow;
+    text-shadow: 1px 1px 1px aquamarine;
+}
+
+.bullet {
+    color: goldenrod;
+    text-shadow: 1px 1px 1px red;
+}
+
+main-section {
+    display: flex;
+}
+
+section,
+aside {
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 4px solid gold;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+table {
+    width: 90px;
+    display: block;
+    margin: 20px auto;
+    background-color: blueviolet;
+}
+
+tr,
+td,
+th {
+    text-align: center;
+    border: 2px solid gold;
+    width: 200px;
+    height: 40px;
+    color: greenyellow;
+}
+
+#single_page {
+    width: 100%;
+}
